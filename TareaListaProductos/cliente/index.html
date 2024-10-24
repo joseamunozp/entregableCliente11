@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <script type="text/javascript" src="app.js" defer />
+</head>
+<body>
+    <h1>Productos</h1>
+
+    <table class="lista-productos">
+        <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th></th>
+        </tr>
+    </table>
+
+    <h1>Añadir producto</h1>
+    <form name="createProduct">
+        <label for="productName"><input type="text" name="productName" /></label>
+        <label for="productPrice"><input type="number" name="productPrice" step=".01" /></label>
+        <input type="submit" class="btn submit producto">Crear producto</button>
+    </form>
+
+</body>
+</html>
